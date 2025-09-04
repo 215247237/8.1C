@@ -8,7 +8,7 @@ pipeline {
                 // Purpose: Compile and package the code
                 // Tool:    Gradle
                 echo "Stage 1: Build"
-                echo "Building code using Gradle....."
+                echo "Building code using Gradle..."
             }
         }
         stage('Unit and Integration Tests') {
