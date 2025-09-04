@@ -9,7 +9,6 @@ pipeline {
                 // Tool:    Gradle
                 echo "Stage 1: Build"
                 echo "Building code using Gradle..."
-                echo "TEST"
             }
         }
         stage('Unit and Integration Tests') {
