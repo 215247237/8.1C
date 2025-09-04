@@ -9,10 +9,11 @@ pipeline {
                 // Tool:    Gradle
                 echo "Stage 1: Build"
                 echo "Building code using Gradle..."
+                echo "TEST"
             }
         }
         stage('Unit and Integration Tests') {
-            steps {
+            steps {     
                 // Task:    Run unit and integration tests using test automation tools
                 // Purpose: Ensuring the code functions and different components work together as expected 
                 // Tools:   JUnit (unit testing), Selenium (integration testing)
